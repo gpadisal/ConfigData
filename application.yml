@@ -1,0 +1,6 @@
+# Default Yml file for all client applications to access
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
